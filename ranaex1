@@ -1,9 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multiples of 3 or 5</title>
 </head>
+
 <body>
 
-    <h2>Sum of Multiples of 3 or 5 Below 1000</h2>
+    <h1>Sum of Multiples of 3 or 5</h1>
+
+    <p>
+        Find the sum of all natural numbers below 1000
+        that are multiples of 3 or 5.
+    </p>
 
     <script>
         let sum = 0;
@@ -13,3 +23,9 @@
                 sum = sum + i;
             }
         }
+
+        alert("The sum of all multiples of 3 or 5 below 1000 is: " + sum);
+    </script>
+
+</body>
+</html>
